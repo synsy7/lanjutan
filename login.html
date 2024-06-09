@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pecita:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login">
+      <img
+        class="mobile-logincuate-icon"
+        loading="lazy"
+        alt=""
+        src="./public/mobilelogincuate.svg"
+      />
+
+      <div class="login-inner">
+        <div class="frame-parent140">
+          <div class="selamat-datang-parent">
+            <h1 class="selamat-datang">Selamat Datang!</h1>
+            <div class="google-wrapper">
+              <div class="google">
+                <img
+                  class="google-logo-streamline-logos-icon1"
+                  loading="lazy"
+                  alt=""
+                  src="./public/googlelogostreamlinelogossvg1.svg"
+                />
+                <h3 class="masuk-dengan-google">Masuk dengan Google</h3>
+              </div>
+            </div>
+            <div class="frame-wrapper48">
+              <div class="frame-parent141">
+                <div class="email-separator-wrapper">
+                  <div class="email-separator"></div>
+                </div>
+                <div class="atau-masuk-melalui1">Atau masuk melalui Email</div>
+                <div class="line-frame">
+                  <div class="frame-child40"></div>
+                </div>
+              </div>
+            </div>
+            <input
+              class="search-barlogin19"
+              placeholder="Email-mu"
+              type="text"
+            />
+
+            <div class="search-barlogin-parent9">
+              <input
+                class="search-barlogin20"
+                placeholder="Kata sandi"
+                type="password"
+              />
+
+              <div class="frame-parent142">
+                <div class="frame-parent143">
+                  <input class="frame-input5" type="checkbox" />
+
+                  <div class="biarkan-masuk">Biarkan masuk</div>
+                </div>
+                <u class="lupa-kata-sandi">Lupa Kata Sandi</u>
+              </div>
+            </div>
+          </div>
+          <div class="button-parent9">
+            <button class="button133">
+              <img class="attachment-streamline-ultimat-icon45" alt="" />
+              <h2 class="button134">Masuk</h2>
+              <img class="check-double-streamline-ultim-icon64" alt="" />
+            </button>
+            <div class="frame-wrapper49">
+              <div class="belum-memiliki-akun-parent">
+                <div class="belum-memiliki-akun">Belum memiliki akun?</div>
+                <b class="daftar-disini">Daftar Disini</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const loginButton = document.querySelector('.button133');
+        const forgotPasswordLink = document.querySelector('.lupa-kata-sandi');
+        
+        loginButton.addEventListener('click', function(event) {
+          event.preventDefault();
+
+          const email = document.querySelector('.search-barlogin19').value;
+          const password = document.querySelector('.search-barlogin20').value;
+
+          if (email === '' || password === '') {
+            alert('Email dan kata sandi harus diisi');
+            return;
+          }
+
+          // Replace this alert with actual login validation and redirection
+          alert(`Email: ${email}\nPassword: ${password}`);
+          
+          // Redirect to the landing page after successful login
+          window.location.href = 'landing-page-login.html';
+        });
+
+        forgotPasswordLink.addEventListener('click', function(event) {
+          event.preventDefault();
+          
+          // Redirect to the forgot password page
+          window.location.href = 'forgot-password.html';
+        });
+      });
+    </script>
+  </body>
+</html>

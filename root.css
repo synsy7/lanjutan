@@ -1,0 +1,121 @@
+.notifikasi4 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+}
+.notification-container {
+  width: 247px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.membalas-ulasanmu-pada {
+  color: var(--text-black);
+}
+.andi-membalas-ulasanmu-container {
+  margin: 0;
+  flex: 1;
+  position: relative;
+}
+.reply-actions {
+  align-self: stretch;
+  border-top: 1px solid var(--text-gray);
+  border-bottom: 1px solid var(--text-gray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xs) 0;
+}
+.baru,
+.span {
+  font-family: var(--button-text);
+}
+.baru-rilis3 {
+  color: var(--color-base);
+}
+.ada-beberapa-sastra-container {
+  margin: 0;
+  flex: 1;
+  position: relative;
+}
+.reply-actions1 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--text-gray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 var(--padding-5xs);
+  color: var(--text-black);
+}
+.rekomendasi5 {
+  color: var(--color-base);
+}
+.lihat-beberapa-rekomendasi-container {
+  position: relative;
+}
+.reply-actions2 {
+  border-bottom: 1px solid var(--text-gray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-20xl) var(--padding-5xs) 0;
+}
+.hanya-untuk-pengguna,
+.reply-actions2 {
+  color: var(--text-black);
+}
+.promo-hanya-untuk-container {
+  margin: 0;
+  flex: 1;
+  position: relative;
+}
+.reply-actions3,
+.review-reply,
+.root {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.reply-actions3 {
+  align-self: stretch;
+  border-bottom: 1px solid var(--text-gray);
+  flex-direction: row;
+  padding: 0 0 var(--padding-5xs);
+}
+.review-reply,
+.root {
+  background-color: var(--color-white);
+  flex-direction: column;
+  text-align: left;
+  font-family: var(--button-text);
+}
+.review-reply {
+  align-self: stretch;
+  overflow: hidden;
+  padding: var(--padding-3xs) var(--padding-xl);
+  gap: var(--gap-3xs);
+  font-size: var(--body-text-size);
+  color: var(--color-base);
+}
+.root {
+  width: 355px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  font-size: var(--font-size-lg);
+  color: var(--text-black);
+}
