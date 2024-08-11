@@ -1,0 +1,227 @@
+.sign-upcuate-icon {
+    height: 300px;
+    width: 300px;
+    position: relative;
+  }
+  .buat-akun {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--heading-2-size);
+    font-weight: 700;
+    font-family: inherit;
+    text-align: center;
+  }
+  .search-bar-container,
+  .search-barlogin,
+  .search-barlogin1,
+  .search-barlogin2 {
+    align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.search-barlogin,
+.search-barlogin1,
+.search-barlogin2 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  height: 29px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-3xs);
+  box-sizing: border-box;
+  font-family: var(--button-text);
+  font-size: var(--font-size-xs);
+  color: var(--text-gray);
+  min-width: 154px;
+}
+.search-bar-container {
+  flex-direction: column;
+  padding: 0 0 var(--padding-6xs);
+  gap: var(--gap-3xs);
+}
+.attachment-streamline-ultimat-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button1 {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 43px;
+  }
+  .check-double-streamline-ultim-icon {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .button,
+  .button-wrapper {
+    display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-base);
+  justify-content: center;
+  padding: 2.5px var(--padding-xl);
+  gap: var(--gap-8xs);
+}
+.button-wrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  font-size: var(--button-text-size);
+  color: var(--text-white);
+}
+.frame-child {
+    width: 46px;
+    height: 1px;
+    position: relative;
+    border-top: 1px solid var(--text-gray);
+    box-sizing: border-box;
+  }
+  .line-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) 0 0;
+  }
+  .atau-masuk-melalui {
+    position: relative;
+    display: inline-block;
+    min-width: 117px;
+  }
+  .frame-item {
+    width: 46px;
+    height: 1px;
+    position: relative;
+    border-top: 1px solid var(--text-gray);
+    box-sizing: border-box;
+  }
+  .frame-group,
+  .line-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .line-container {
+    flex-direction: column;
+    padding: var(--padding-6xs) 0 0;
+  }
+  .frame-group {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-3xs);
+  }
+  .google-logo-streamline-logos-icon {
+    height: 16px;
+    width: 16px;
+    position: relative;
+  }
+  .google-logo-streamline-logos-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+  }
+  .frame-parent,
+  .signup-form-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-8xs);
+  }
+  .signup-form-inner {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 14px 13px;
+    color: var(--text-gray);
+  }
+  .masuk-disini {
+    text-decoration: underline;
+    color: #ec8f5e;
+  }
+  .sudah-memiliki-akun-container {
+    position: relative;
+  }
+  .sudah-memiliki-akun-masuk-dis-wrapper {
+    flex-direction: row;
+    padding: 0 48px 0 52px;
+    color: #282828;
+  }
+  .sign-in,
+.signup-form,
+.signup-form-wrapper,
+.sudah-memiliki-akun-masuk-dis-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.signup-form {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.sign-in,
+.signup-form-wrapper {
+  box-sizing: border-box;
+}
+.signup-form-wrapper {
+  width: 256px;
+  flex-direction: column;
+  padding: 2px 0 0;
+  min-width: 256px;
+}
+.sign-in {
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--background-2);
+    width: 100%;
+    flex-direction: row;
+    padding: 50px 60px;
+    gap: 24px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-3xs);
+    color: var(--color-base);
+    font-family: var(--button-text);
+  }
+  @media screen and (max-width: 675px) {
+    .sign-upcuate-icon,
+    .signup-form-wrapper {
+      flex: 1;
+    }
+    .sign-in {
+        flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sign-in,
+  .sudah-memiliki-akun-masuk-dis-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
